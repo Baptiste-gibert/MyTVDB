@@ -1,0 +1,52 @@
+<div class="hero-unit">
+
+                <h1>Create MyTVDB account</h1>
+
+
+                <div class="alert alert-info">
+                    <p>Already have an account? <a href="/login">Login here!</a></p>
+                </div>
+
+
+                <form action="/create" method="post" autocomplete="off">
+                	<input type="hidden" name="_method" value="post">
+                	<fieldset>
+
+                		<div class="clearfix">
+                		    <label for="last">First Name:</label>
+                		    <div class="input">
+                		        <input class="xlarge" id="first" type="text" name="first" placeholder="John" required="required">
+                		    </div>
+                		</div>
+                		<div class="clearfix">
+                		    <label for="last">Last Name:</label>
+                		    <div class="input">
+                		        <input class="xlarge" id="last" type="text" name="last" placeholder="Doe" required="required">
+                		    </div>
+                		</div>
+                		<div class="clearfix">
+                		    <label for="email">Email:</label>
+                		    <div class="input">
+                		        <input class="xlarge" id="email" type="email" name="email" placeholder="you@gmail.com" required="required">
+                		    </div>
+                		</div>
+                		<div class="clearfix">
+                		    <label for="pass">Password:</label>
+                		    <div class="input">
+                		        <input class="xlarge" id="pass" type="password" name="pass" required="required">
+                		    </div>
+                		</div>
+                		<div class="clearfix">
+                		    <label for="confirm">Confirm Password:</label>
+                		    <div class="input">
+                		        <input class="xlarge" id="confirm" type="password" name="confirm" required="required">
+                		    </div>
+                		</div>
+
+                        <div class="actions">
+                		    <button class="btn btn-primary btn-large" type="submit">Create!</button>
+                		</div>
+                	</fieldset>
+                </form>
+     
+</div>
